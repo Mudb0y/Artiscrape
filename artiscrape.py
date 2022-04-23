@@ -10,7 +10,7 @@ for i in range(1, 15000000):
     response = requests.get(url)
     soup = bs.BeautifulSoup(response.text, "html.parser")
     print ("Checking " +url)
-    sleep (1000)
+    sleep (1)
 title = soup.find("h1", {"class": "title"})
 if title.text.find("Artemis Fowl fanfic") != -1:
     # Download the fic using fanficfare.
