@@ -14,3 +14,4 @@ title = soup.find("h1", {"class": "title"})
 if title.text.find("Artemis Fowl fanfic") != -1:
     # Download the fic using fanficfare.
     print ("Downloading from " +url)
+os.system ("fanficfare -f txt --non-interactive " +url)
