@@ -14,5 +14,6 @@ for i in range(1, 40882393):
             f.write(url + "\n")
         print ("Valid URL found.")
     else:
-        pass
+        with open("invalid-urls.txt", "a") as f:
+            f.write(url + "\n")
     sleep(1)
