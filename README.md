@@ -1,6 +1,6 @@
 # Artiscrape
 
-This tool aims to scrape all fics from the Artemis Fowl fandom from fanfiction.net, and possibly AO3.
+This tool aims to scrape all fics from the Artemis Fowl fandom on AO3. FFN might be added once I figure out how to pass CloudFlare's checks
 
 $ pip install fanficfare requests bs4
 
