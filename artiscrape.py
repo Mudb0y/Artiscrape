@@ -4,6 +4,7 @@ from time import sleep
 import requests
 import bs4 as bs
 
+print ("Building list of valid links. This will take a long time...")
 for i in range(1, 40882393):
     url = "https://archiveofourown.org/works/" + str(i)
     response = requests.get(url)
