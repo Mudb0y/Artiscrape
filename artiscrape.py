@@ -16,4 +16,4 @@ for i in range(1, 40882393):
     else:
         with open("invalid-urls.txt", "a") as f:
             f.write(url + "\n")
-    sleep(1)
+    sleep(0.2)
